@@ -1,0 +1,6 @@
+# HSTS 1.0 Known Hosts database for GNU Wget.
+# Edit at your own risk.
+# <hostname>	<port>	<incl. subdomains>	<created>	<max-age>
+pkg.jenkins.io	0	0	1702300965	300
+dev.mysql.com	0	0	1701946646	15768000
+www.phpmyadmin.net	0	1	1701954545	31536000
