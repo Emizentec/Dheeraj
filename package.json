@@ -1,19 +1,15 @@
 {
-  "name": "nodeapp",
+  "name": "my-node-app",
   "version": "1.0.0",
-  "description": "Your application description",
-  "main": "index.js", // Replace with your main application file
+  "description": "A sample Node.js application",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js" // Replace with the command to start your app
-    // Add other scripts if needed, like for testing or building
+    "start": "node index.js"
   },
   "dependencies": {
-    // Add your dependencies here, for example:
-    // "express": "^4.17.1",
-    // "mongoose": "^6.1.2"
-  },
-  "devDependencies": {
-    // Add your development dependencies if needed
-  }
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "axios": "^0.21.1",
+    "jsonwebtoken": "^8.5.1"
+   }
 }
-
